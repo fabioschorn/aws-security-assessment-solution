@@ -142,6 +142,15 @@ When enabled, this module will deploy separate functions that can help customers
     + Generally, the issues should be described in the report with readily identifiable corrections. Please follow up with the public documentation for each tool (Prowler and ScoutSuite) as well. If this is insufficient, please reach out to your AWS Account team and we will be more than happy to help you understand the reports and work towards remediating issues.
 
 
+## Running Tests
+
+This project uses **pytest** for unit tests. After cloning the repository, install pytest and run the suite:
+
+```bash
+pip install pytest
+pytest
+```
+
 
 ## Security
 
